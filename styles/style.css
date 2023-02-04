@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(../src/fonts/Audiowide-Az09.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+    overflow: hidden;
+
+    font-family: Audiowide, Arial, sans-serif;
+    color: #00ff00;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    background-image: url(../src/images/MarsGameLogoDarkBg.png);
+    background-position: center 120px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+div {
+    position: absolute;
+    top: 25px;
+    text-align: center;
+}
+
+
+
+#range-index {
+    display: flex;
+    justify-content: space-between
+}
+#range-index span {
+    display: block;
+    width: 20px;
+    font-size: 12px;
+}
+
+#range, #range-index {
+    width: 90vw;
+    max-width: 300px;
+}
+
+button {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 25px;
+    text-align: center;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00ff00;
+}
